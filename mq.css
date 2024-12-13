@@ -718,11 +718,6 @@
 
   
   @media (max-width: 768px) {
-    .header {
-      padding: 10px;
-      flex-direction: column;
-      text-align: center;
-    }
   
     .tentang h2 {
       font-size: 1.8rem;
@@ -750,17 +745,9 @@
     body {
       font-size: 14px;
     }
-  
-    .header {
-      padding: 5px;
-      flex-direction: column;
-      text-align: center;
+    .content {
+        flex-direction: column;
     }
-  
-    .logo img {
-      height: 30px;
-    }
-  
     .tentang h2 {
       font-size: 1.5rem;
     }
