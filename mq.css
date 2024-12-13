@@ -357,6 +357,7 @@
       color: #18A558; 
       margin: 50px;
       text-align: left;
+      margin-left: 230px;
     }
     
     .partner-img {
@@ -717,7 +718,7 @@
   }
 
   
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
   
     .tentang h2 {
       font-size: 1.8rem;
@@ -755,7 +756,7 @@
     .buttons .psb {
       font-size: 0.8rem;
       padding: 8px 10px;
-    }
+    }  
   
     .feature-container {
       flex-direction: column;
