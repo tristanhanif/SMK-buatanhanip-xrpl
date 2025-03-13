@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+      /* box-sizing: border-box; */
     font-family: Arial, sans-serif;
     line-height: 1.6;
   }
@@ -101,8 +101,9 @@
   .deskripsi1 img {
     width: 50%;
     display: flex;
-    margin: 20px;
+    /* margin: 20px; */
     padding: 20px;
+    justify-content: center;
   }
   
   .pendalamanmateri {
@@ -164,7 +165,7 @@
   .deskripsi2 img {
     width: 50%;
     display: flex;
-    margin: 20px;
+    /* margin: 20px; */
     order: 2;
     }
   
@@ -230,7 +231,7 @@
     .deskripsi3 img {
     width: 50%;
     display: flex;
-    margin: 20px;
+    /* margin: 20px; */
     }
     
     .pendalamanmateri3 {
@@ -292,7 +293,7 @@
     .deskripsi4 img {
       width: 50%;
       display: flex;
-      margin: 20px;
+      /* margin: 20px; */
       order: 2;
       }
     
@@ -357,7 +358,7 @@
       color: #18A558; 
       margin: 50px;
       text-align: left;
-      margin-left: 230px;
+      /* margin-left: 230px; */
     }
     
     .partner-img {
@@ -718,14 +719,13 @@
   }
 
   
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
   
     .tentang h2 {
       font-size: 1.8rem;
     }
   
     .feature-card {
-      width: 100%;
       margin-bottom: 15px;
       text-align: center;
     }
@@ -759,11 +759,9 @@
     }  
   
     .feature-container {
-      flex-direction: column;
       gap: 10px;
     }
-  
-  
+        
     .fasilitas-smk h2 {
       margin-left: 103px;
     }
